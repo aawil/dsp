@@ -21,14 +21,23 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > > `pwd`: show current working directory
+
 > > `mkdir`: create a directory
+
 > > `rmdir` or `rm -r`: delete a directory
+
 > > `touch filename`: create a file
+
 > > `rm`: delete a file
+
 > > `mv`: rename a file
+
 > > `ls -a`: list hidden files
+
 > > `cp dir1/file dir2/`: copy a file from one directory to another
+
 > > `echo "text"`: output text to stdout
+
 > > `clear`: make everything all clean and new again
 
 ---
@@ -45,11 +54,17 @@ What do the following commands do:
 `ls -Glp`  
 
 > > `ls`: list files in current directory
+
 > > `ls -a`: list all files (including .hidden files)
+
 > > `ls -l`: list files in long format (showing permissions, size, modified date, etc.)
+
 > > `ls -lh`: same as above, but shows file sizes with units
+
 > > `ls -lah`: same as above, but shows .hidden files
+
 > > `ls -t`: orders output by last modified (recent first)
+
 > > `ls -Glp`: list files in long format, with slashes indicating directories, and also pretty colors
 
 ---
@@ -59,9 +74,13 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > `ls -lS`: sort files by size
+
 > > `ls -lT`: show excruciatingly detailed last modified info
+
 > > `ls -A`: like -a, but skips the . and .. 'directories'
+
 > > `ls -x`: sorts multi-column output across first instead of down first. Alias to 'ls' to annoy your friends
+
 > > `ls -i`: show each file's social security number
 
 ---
@@ -71,6 +90,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > xargs takes text as input and does a given command on each 'item' in the text (separated by spaces, newlines, or what have you). For example:
+
 > > `echo "big chungus" | xargs touch` will create two files called `big` and `chungus`. This isn't very useful, but you can pipe stuff like the output of a grep or find into xargs to save a lot of time.
  
 
