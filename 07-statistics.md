@@ -101,7 +101,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist and Bayesian are two different interpretations of probability. The Bayesian interpretation defines probability as the chance that a hypothesis is true. In Bayesian analysis, a prior probability is established (sometimes based on available data, sometimes as a subjective guess), and then updated based on additional data. 
+
+>> The frequentist interpretation, on the other hand, defines probability as the proportion of times a given result occurs after a large number of repeated (potentially theoretical) trials - that is, the *frequency* of the result. Instead of determining the probability of a hypothesis, as in Bayesian analysis, frequentist analysis seeks to establish the probability of observing a set of results, assuming that the hypothesis is true. 
 
 ---
 
